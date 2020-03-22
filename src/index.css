@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.clickable{
+  cursor: pointer;
+}
+
+main{
+  padding-top:24px;
+}
