@@ -2,6 +2,7 @@ import http from "./httpService";
 const moviesEndPoint = '/movies';
 
 function movieUrl(movieId){
+  
   return `${moviesEndPoint}/${movieId}`;
 }
 
