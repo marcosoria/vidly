@@ -26,8 +26,7 @@ class Movies extends Component {
   }
 
   constructor(){
-    super();
-    console.log('constructor called');
+    super();   
   }
 
   handleDelete = async movie => {    
