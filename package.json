@@ -14,6 +14,7 @@
     "jquery": "^3.4.1",
     "jwt-decode": "^2.2.0",
     "lodash": "^4.17.15",
+    "popper.js": "^1.16.1",
     "prop-types": "^15.6.2",
     "raven-js": "^3.26.4",
     "react": "^16.13.1",

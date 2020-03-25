@@ -62,12 +62,16 @@ class Movies extends Component {
   }
 
   async componentDidMount(){    
-    const { data: genres } = await getGenres();    
-    const { data: movies } = await getMovies();
-    this.setState({
-      movies: movies,
-      genres: genres
-    })
+    try {
+      const { data: genres } = await getGenres();    
+      const { data: movies } = await getMovies();
+      this.setState({
+        movies: movies,
+        genres: genres
+      })      
+    } catch (ex) {
+      
+    }
   }
 
   handleLike = (movie) => {    
